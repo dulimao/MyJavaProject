@@ -48,6 +48,7 @@ package git;
 
 public class Main {
     public static void main(String[] args){
+        System.out.println("git 工作流测试");
 
     }
 }
