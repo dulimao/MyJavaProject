@@ -1,0 +1,5 @@
+design_pattern.factory_pattern.Person
+name=杜立茂
+age=28design_pattern.factory_pattern.Person
+name=杜立茂
+age=28
