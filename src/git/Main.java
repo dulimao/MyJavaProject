@@ -2,9 +2,9 @@ package git;
 
 
 /**
-*@author: 杜立茂
-*@createDate  : 2018/12/24 18:36
-*@description: Git:
+ *@author: 杜立茂
+ *@createDate  : 2018/12/24 18:36
+ *@description: Git:
  *                  mkdir myproject ---新建目录
  *                  git init        ---初始化仓库
  *                  pwd             ---输出全路径
@@ -44,7 +44,10 @@ package git;
  *
  *             Vim:按I，进入编辑模式，输入:wq结束编辑
  *
-*/
+ */
 
 public class Main {
+    public static void main(String[] args){
+
+    }
 }
