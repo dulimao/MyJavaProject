@@ -36,6 +36,25 @@ public class 字符串 {
         return reverse(str1 + str2);
     }
 
+    /**
+     * 寻找最大子串
+     * @param str
+     * @return
+     */
+    public static String queryMaxStr(String str){
+        return "";
+    }
+
+
+    /**
+     * 找出第一个不重复的字符
+     * @param str
+     * @return
+     */
+    public static String queryFirstStr(String str){
+        return "";
+    }
+
 
 
 }

@@ -2,6 +2,8 @@ package 数据结构和算法;
 
 import jdk.nashorn.internal.ir.IfNode;
 
+import java.util.Stack;
+
 /**
  * 合并两个单向有序链表
  */
@@ -20,11 +22,13 @@ public class 合并两个有序单链表 {
         node2.next = node22;
         node22.next = node23;
 
-        Node node = merageTwoList(node1,node2);
-        while (node != null){
-            System.out.println("node: " + node.value );
-            node = node.next;
-        }
+//        Node node = merageTwoList(node1,node2);
+//        while (node != null){
+//            System.out.println("node: " + node.value );
+//            node = node.next;
+//        }
+
+        revertNodeList(node1);
 
     }
 
@@ -71,6 +75,27 @@ public class 合并两个有序单链表 {
 //
 //        }
 //    }
+
+
+    /**
+     * 反转链表
+     * @param node
+     */
+    public static void revertNodeList(Node node){
+        Stack<Node> nodes = new Stack<>();
+        if(node != null){
+            nodes.push(node);
+        }
+
+        while (node.next != null){
+            nodes.push(node.next);
+            node = node.next;
+        }
+
+        while (nodes.size() != 0 && nodes.peek() != null){
+            System.out.print(nodes.pop().value + " - ");
+        }
+    }
 }
 class Node{
     int value;
