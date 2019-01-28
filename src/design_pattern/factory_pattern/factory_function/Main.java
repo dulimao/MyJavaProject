@@ -2,13 +2,14 @@ package design_pattern.factory_pattern.factory_function;
 
 
 import design_pattern.factory_pattern.Person;
+import test.ClassTest;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 
-//工厂模式：工厂方法模式，抽象工厂模式
+//工厂模式：工厂方法模式，抽象工厂模式 最少知识原则
 //意图：定义一个接口来创建对象，但是让子类决定哪些类需要被实例化，工厂方法把实例化的工作推迟到了子类去实现
 public class Main {
 
@@ -27,6 +28,25 @@ public class Main {
         Person person = (Person) getInstance();
         System.out.println(person);
 
+        getPerson(Person.class);
+
+    }
+
+    protected static <T extends Person> T getPerson(Class<T> clazz){
+        Person person = null;
+        try {
+            person = (Person) Class.forName(clazz.getName()).newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return (T) person;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
     /**
