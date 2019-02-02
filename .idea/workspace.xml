@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299397d4-01ca-40de-be69-5e2c9f955d1e" name="Default Changelist" comment="反转链表">
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/AbstractRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/原型模式/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Person.java" afterDir="false" />
+    <list default="true" id="299397d4-01ca-40de-be69-5e2c9f955d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BsDiff.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jni/JNIMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jni/update_patch/server/BsDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jni/update_patch/server/BsDiffTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/design_pattern/factory_pattern/factory_function/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/design_pattern/factory_pattern/factory_function/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/test/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/test/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/test/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/test/ClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory_pattern/factory_function/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/factory_pattern/factory_function/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/signleton_pattern/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/signleton_pattern/Singleton2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path=".idea/workspace.xml" />
@@ -31,24 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jni/JNIMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="-895">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/AbstractRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/jni/update_patch/server/BsDiffTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jni/update_patch/server/BsDiff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -81,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xml_parse/girls.xml" />
-        <option value="$PROJECT_DIR$/src/xml_parse/Main.java" />
-        <option value="$PROJECT_DIR$/src/xml_parse/XMLParse.java" />
         <option value="$PROJECT_DIR$/src/http/MultiThreadDowload.java" />
         <option value="$PROJECT_DIR$/src/http/UploadImageThread.java" />
         <option value="$PROJECT_DIR$/src/io/FileUtil.java" />
@@ -132,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/design_pattern/原型模式/main.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/AbstractRequest.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java" />
+        <option value="$PROJECT_DIR$/src/ndk/JNIMain.java" />
+        <option value="$PROJECT_DIR$/src/jni/JNIMain.java" />
+        <option value="$PROJECT_DIR$/src/jni/update_patch/server/BsDiff.java" />
       </list>
     </option>
   </component>
@@ -142,8 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-48" />
+    <option name="y" value="56" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -152,36 +152,11 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyJavaProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="MyJavaProject" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="MyJavaProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MyJavaProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="MyJavaProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MyJavaProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,13 +173,25 @@
               <item name="MyJavaProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyJavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJavaProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyJavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+              <item name="update_patch" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyJavaProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MyJavaProject" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -215,29 +202,29 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548651135670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549112412057" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\disignpattern\factory_pattern\factory_function" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject" />
       <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src" />
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\jni" />
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\git" />
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\conllection" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="design_pattern.handlerchain_pattern" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\git" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\conllection" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\jvm" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\thread" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src\disignpattern\factory_pattern\factory_function" />
+      <recent name="C:\Users\Administrator\IdeaProjects\MyJavaProject\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,13 +239,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassTest">
+  <component name="RunManager" selected="Application.BsDiff">
     <configuration name="合并两个有序单链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="数据结构和算法.合并两个有序单链表" />
       <module name="MyJavaProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="数据结构和算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BsDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jni.update_patch.server.BsDiff" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jni.update_patch.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,25 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础.Main" />
+    <configuration name="JNIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jni.JNIMain" />
       <module name="MyJavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.Main" />
-      <module name="MyJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="git.*" />
+          <option name="PATTERN" value="jni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BsDiff" />
+        <item itemvalue="Application.JNIMain" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Application.合并两个有序单链表" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +435,12 @@
       <workItem from="1548469604031" duration="2415000" />
       <workItem from="1548499117785" duration="596000" />
       <workItem from="1548561974564" duration="4362000" />
-      <workItem from="1548639145898" duration="1266000" />
+      <workItem from="1548639145898" duration="2932000" />
+      <workItem from="1548671768209" duration="14000" />
+      <workItem from="1548900457069" duration="598000" />
+      <workItem from="1548933594070" duration="14272000" />
+      <workItem from="1549071173025" duration="1927000" />
+      <workItem from="1549080460407" duration="12572000" />
     </task>
     <task id="LOCAL-00001" summary="删除adb测试文件">
       <created>1546138524305</created>
@@ -499,17 +491,33 @@
       <option name="project" value="LOCAL" />
       <updated>1547274160588</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="设计模式">
+      <created>1548653693885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548653693885</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207718000" />
+    <option name="totallyTimeSpent" value="238767000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4915254" visible="true" weight="0.19515885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4915254" weight="0.21028744" />
       <window_info id="Structure" order="1" sideWeight="0.50425893" side_tool="true" weight="0.21558245" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,15 +526,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.5084746" side_tool="true" weight="0.24281392" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32764506" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37883958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34982935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35836178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26450512" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32879046" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32764506" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32879046" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32764506" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32879046" />
@@ -601,7 +609,8 @@
     <MESSAGE value="从m个数中取n个数（n &lt; m），且不重复" />
     <MESSAGE value="算法字符串向左平移，反转字符串" />
     <MESSAGE value="反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+    <MESSAGE value="设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,76 +635,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/http/Mian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/MultiThreadDowload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/UploadImageThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/RandomAccessFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/字符流.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/字节流.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1204">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/序列化.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/jvm1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -971,10 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="840">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -986,6 +925,81 @@
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4582">
+          <caret line="845" column="18" selection-start-line="845" selection-start-column="18" selection-end-line="845" selection-end-column="18" />
+          <folding>
+            <element signature="e#31011#31012#0" expanded="true" />
+            <element signature="e#31043#31044#0" expanded="true" />
+            <element signature="e#31386#31387#0" expanded="true" />
+            <element signature="e#31431#31432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/handlerchain_pattern/handles/Hanlder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JNIMain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jni_update_patch_server_BsDiff.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid1480.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="181" column="31" lean-forward="true" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid3612.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jni/update_patch/server/BsDiffTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jni/JNIMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jni/update_patch/server/BsDiff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1060,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
