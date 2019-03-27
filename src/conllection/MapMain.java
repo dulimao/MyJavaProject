@@ -1,9 +1,6 @@
 package conllection;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MapMain {
 
@@ -17,12 +14,28 @@ public class MapMain {
 //        }
 
 //        TreeMap<Person,String> treeMap = new TreeMap<>();
-        MyComparator comparator = new MyComparator();
-        TreeMap<Person,String> treeMap = new TreeMap<>(comparator);
-        treeMap.put(new Person(111,"狗娃"),"单生狗");
-        treeMap.put(new Person(110,"狗剩"),"狗不理");
-        treeMap.put(new Person(112,"狗蛋"),"狗蛋子");
-        System.out.println(treeMap);
+//        MyComparator comparator = new MyComparator();
+//        TreeMap<Person,String> treeMap = new TreeMap<>(comparator);
+//        treeMap.put(new Person(111,"狗娃"),"单生狗");
+//        treeMap.put(new Person(110,"狗剩"),"狗不理");
+//        treeMap.put(new Person(112,"狗蛋"),"狗蛋子");
+//        System.out.println(treeMap);
+
+        String str1 = "hello";
+        String str2 = new String("hello");
+        str2 = str2.intern();
+        String str3 = str2;
+        System.out.println("str1 == str2:" + (str1 ==str2));
+        System.out.println("str1 == str3:" + (str1 ==str3));
+        System.out.println("str2 == str3:" + (str2 ==str3));
+        System.out.println("str1 equals str2:" + (str1.equals(str2)));
+        System.out.println("str1 equals str3:" + (str1.equals(str3)));
+        System.out.println("str2 equals str3:" + (str2.equals(str3)));
+
+        HashMap<String,String> map = new HashMap<>();
+        map.put(null,null);
+        Hashtable<String,String> table = new Hashtable<>();
+        table.put("","");
 
     }
 }

@@ -11,12 +11,12 @@ import java.util.concurrent.*;
 public class ClassTest {
 
     public static void main(String[] args){
-        Class[] clazz = {A.class,B.class};
+        //Class[] clazz = {A.class,B.class};
 
 
 //        A ab = new B();
 //        ab = new B();
-        //面试题：引用父类静态变量的时候会不会实例化子类？ 答案：不会
+//        //面试题：引用父类静态变量的时候会不会实例化子类？ 答案：不会
         String s = B.name;
         System.out.println(s);//Static A
         Person person = new Person("adu");

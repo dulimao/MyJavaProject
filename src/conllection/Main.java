@@ -14,7 +14,7 @@ import java.util.*;
  *                  子接口：List,Set
  *                  List:有序（添加和取出的顺序，不是指排序），可重复，list接口特有方法的操作都和索引值有关
  *                  Set:无序，不可重复
- *                  equals:比较内存地址，==比较内容
+ *                  ==：比较内存地址的值，equals:比较内容
  *             java基础规范：重写equals()方法，一般需要重写hashcode()方法
  *             Iterator（迭代器）作用：
  *                              原理：看源码
@@ -22,13 +22,14 @@ import java.util.*;
  *
  *             ArrayList:
  *                      原理：底层维护了一个Object类型的数组，初始容量为10，扩容倍数：0.5倍，
- *                       特点：查询快，增删慢,因为数组内存地址是连续的，查询直接定位索引，增删会有数组的copy操作
+ *                       特点：查询快，增删慢,因为数组内存地址是连续的，查询直接定位索引，只要知道首地址和下标就可以快速找到，
+ *                       增删会有数组的copy操作
  *             LinkedList:
  *                      原理：底层用链表实现，数据存储方式为  元素1 + （元素2）下个元素的内存地址-----元素2 + 下个元素的内存地址
  *                      特点：查询满，增删快，
  *                      因为内存地址不连续，查询需要从头开始一个一个的找，删除直接修改内存地址的值就可以
- *                      栈（先进后出） push() pop()
- *                      队列（先进先出） offer() poll()
+ *                      栈（先进后出） push() pop() peek
+ *                      队列（先进先出） offer() poll() peek
  *             Vector:底层也是Object数组，并且是线程安全的
  *
  *             Set:
@@ -45,13 +46,14 @@ import java.util.*;
  *                           注意：如果键具备自然顺序，则会对键进行排序
  *                                 如果不具备自然顺序，那么键所属的类必须实现Comparable接口，并实现比较规则
  *                                 如果不具备自然顺序，也没有实现接口，那么需要在treemap构造器中传入比较器
- *                       HashTable:实现方式与hashmap一行，线程安全，但是效率低
+ *                       HashTable:实现方式与hashmap一样，线程安全，但是效率低
  *             集合工具类：Collections
 */
 
 public class Main {
 
     public static void main(String[] args){
+
 
 //        LinkedList list = new LinkedList();
 //        list.add("aaa");
@@ -63,6 +65,9 @@ public class Main {
 //        while (iterator.hasNext()){
 //            System.out.println(iterator.next());
 //        }
+
+
+        
 
         Map<String,String> map = new HashMap<>();
         map.put("杜立茂","党玉婷");
@@ -122,5 +127,48 @@ public class Main {
         for (int i = 0;i<a.length;i++){
             System.out.println(a[i]);
         }
+    }
+
+
+    /**
+     * 二分法查找
+     * @param arr
+     * @param a
+     * @return
+     */
+    public int binarySearch(int[] arr,int a){
+        int low = 0;
+        int high = arr.length - 1;
+        while (low <= high) {
+            int mid = (low + high) >>> 2;
+            if (a > arr[mid]) {
+                low = mid + 1;
+            }else if (a < arr[mid]) {
+                high = mid - 1;
+            }else{
+                return mid;
+            }
+        }
+        return -(low + 1);
+    }
+
+
+    private <T> int indexedBinarySearch(List<? extends Comparable<? super T>> list, T key) {
+        int low = 0;
+        int high = list.size()-1;
+
+        while (low <= high) {
+            int mid = (low + high) >>> 1;
+            Comparable<? super T> midVal = list.get(mid);
+            int cmp = midVal.compareTo(key);
+
+            if (cmp < 0)
+                low = mid + 1;
+            else if (cmp > 0)
+                high = mid - 1;
+            else
+                return mid; // key found
+        }
+        return -(low + 1);  // key not found
     }
 }

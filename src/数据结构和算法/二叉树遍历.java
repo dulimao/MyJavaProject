@@ -41,12 +41,19 @@ public class 二叉树遍历 {
         binaryTree.midOrder(rootNode);
         System.out.println();
 
+        System.out.println("栈结构-中序遍历1");
+        binaryTree.midOrderByStack(rootNode);
+        System.out.println();
+
         System.out.println("后序遍历：");
         binaryTree.laterOrder(rootNode);
 
         System.out.println();
         System.out.println("栈结构-前序遍历");
         binaryTree.preOrderByStack(rootNode);
+        System.out.println("栈结构-前序遍历1");
+        binaryTree.prerderByStack(rootNode);
+
     }
 
 
@@ -113,6 +120,8 @@ public class 二叉树遍历 {
     }
 
 
+
+
     /**
      * 前序遍历
      * 2、基于栈结构遍历
@@ -135,6 +144,41 @@ public class 二叉树遍历 {
            }
        }
     }
+
+
+
+
+    public void prerderByStack(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode node = root;
+        while (node != null || stack.size() != 0) {
+            if (node != null) {
+                System.out.print(" -- " + node.data);
+                stack.push(node);
+                node = node.leftNode;
+            }else {
+                node = stack.pop();
+                node = node.rightNode;
+            }
+        }
+    }
+
+    public void midOrderByStack(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode node = root;
+        while (node != null || stack.size() != 0) {
+            if (node != null) {
+                stack.push(node);
+                node = node.leftNode;
+            } else {
+                node = stack.pop();
+                System.out.print(" -- " + node.data);
+                node = node.rightNode;
+            }
+        }
+    }
+
+
 
 
     /**
@@ -165,6 +209,29 @@ public class 二叉树遍历 {
             laterOrder(node.leftNode);
             laterOrder(node.rightNode);
             System.out.print(" - " + node.data);
+        }
+    }
+
+
+    //后序遍历
+    public void thePostOrderTraversal_Stack(TreeNode root) {   //后序遍历
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Stack<TreeNode> output = new Stack<TreeNode>();//构造一个中间栈来存储逆后序遍历的结果
+        TreeNode node = root;
+        while (node != null || stack.size() > 0) {
+            if (node != null) {
+                output.push(node);
+                stack.push(node);
+                node = node.leftNode;
+            } else {
+                node = stack.pop();
+                node = node.rightNode;
+            }
+        }
+        System.out.println(output.size());
+        while (output.size() > 0) {
+            System.out.print("--" +output.pop());
+
         }
     }
 

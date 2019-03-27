@@ -55,6 +55,8 @@ class Studen{
 
     @Override
     public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
         Studen studen = (Studen) obj;
         return this.stuId == studen.stuId;
     }
