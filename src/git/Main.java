@@ -15,6 +15,7 @@ package git;
  *                  git config --global ---设置系统级别
  *                  git config user.name dlm ---设置用户名
  *                  git config user.email 956720500@qq.com ---设置用户邮箱
+ *                  git config --global  --list  --获取当前git配置
  *             Git命令：
  *                  git status ---查看工作区和暂存区的状态
  *                  git add <filename>  --- 把新建的文件（未追踪）添加到暂存区
