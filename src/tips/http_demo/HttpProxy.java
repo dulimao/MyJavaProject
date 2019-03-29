@@ -12,7 +12,7 @@ import java.security.cert.X509Certificate;
  */
 public class HttpProxy {
     public static void main(String[] args){
-        setHttpsProxy("https://www.baidu.com","","192.168.56.1",8080);
+        setHttpsProxy("https://www.baidu.com","","127.0.0.1",80);
     }
 
 
@@ -32,7 +32,7 @@ public class HttpProxy {
             URL urlClient = new URL(url);
             System.out.println("请求url: " + urlClient);
             SSLContext sc = SSLContext.getInstance("SSL");
-            //制定信任https
+            //指定信任https
             sc.init(null,new TrustManager[] {new TrustAnyTrustManager()},new SecureRandom());
             //创建代理
             Proxy proxy = new Proxy(Proxy.Type.HTTP,new InetSocketAddress(host,port));
@@ -40,7 +40,7 @@ public class HttpProxy {
             //设置代理
             httpsConn = (HttpsURLConnection) urlClient.openConnection(proxy);
             //不设置代理
-           // httpsConn = (HttpsURLConnection) urlClient.openConnection();
+            //httpsConn = (HttpsURLConnection) urlClient.openConnection();
 
             httpsConn.setSSLSocketFactory(sc.getSocketFactory());
             httpsConn.setHostnameVerifier(new TrustAnyHostnameVerifier());
