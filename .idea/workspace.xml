@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299397d4-01ca-40de-be69-5e2c9f955d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/Concurrent_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/Mutex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/TwinsLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/thread_pool/DefaultThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/thread_pool/SimpleHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/thread_pool/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tips/thread_pool/TreadPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/MapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/MapMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/MyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Studen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/conllection/Studen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/test/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/test/ClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/thread/Main$DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/thread/Main$DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/thread/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/thread/TCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/thread/TCallable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/数据结构和算法/二叉树遍历$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/数据结构和算法/二叉树遍历$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/数据结构和算法/二叉树遍历.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/数据结构和算法/二叉树遍历.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conllection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conllection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conllection/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conllection/MapMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conllection/SetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conllection/SetMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数据结构和算法/二叉树遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构和算法/二叉树遍历.java" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path=".idea/workspace.xml" />
@@ -58,57 +19,7 @@
     <favorites_list name="MyJavaProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tips/TwinsLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-782">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tips/Demo13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tips/Demo14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/git/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -256,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553687140802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553687509134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -294,6 +205,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Demo14">
+    <configuration name="排序算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数据结构和算法.排序算法" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数据结构和算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tips.Demo10" />
       <module name="MyJavaProject" />
@@ -352,19 +276,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tips.thread_pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="排序算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数据结构和算法.排序算法" />
-      <module name="MyJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数据结构和算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,7 +380,8 @@
       <workItem from="1553482051787" duration="5740000" />
       <workItem from="1553600765857" duration="5750000" />
       <workItem from="1553652872096" duration="4353000" />
-      <workItem from="1553675924858" duration="3519000" />
+      <workItem from="1553675924858" duration="3658000" />
+      <workItem from="1554004738660" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="删除adb测试文件">
       <created>1546138524305</created>
@@ -534,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549113086474</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="java并发demo">
+      <created>1553687484589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553687484589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308891000" />
+    <option name="totallyTimeSpent" value="309586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,9 +470,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4915254" visible="true" weight="0.23903178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4915254" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" sideWeight="0.50425893" side_tool="true" weight="0.21558245" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -647,7 +565,8 @@
     <MESSAGE value="反转链表" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="增量更新（BsDiff）" />
-    <option name="LAST_COMMIT_MESSAGE" value="增量更新（BsDiff）" />
+    <MESSAGE value="java并发demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="java并发demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1070,44 +989,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tips/TwinsLock.java">
+    <entry file="file://$PROJECT_DIR$/src/git/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tips/Demo13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tips/Demo14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/git/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/tips/Demo13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="27">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tips/TwinsLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
