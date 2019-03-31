@@ -1,5 +1,6 @@
 package tips;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,6 +15,7 @@ public class Demo14 {
     private static void testLock(Lock lock) {
         for (int i = 0; i < 5; i++) {
             Job job = new Job(lock);
+            job.setName("Job-" + i);
             job.start();
         }
     }
@@ -31,6 +33,11 @@ public class Demo14 {
             lock.lock();
             try {
                 System.out.println(Thread.currentThread().getName());
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }finally {
                 lock.unlock();
             }
