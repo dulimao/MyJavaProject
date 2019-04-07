@@ -1,4 +1,4 @@
-package tips;
+package tips.concurrent_demo;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

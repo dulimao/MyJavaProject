@@ -1,4 +1,4 @@
-package tips;
+package tips.concurrent_demo;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;

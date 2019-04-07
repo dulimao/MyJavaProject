@@ -1,9 +1,5 @@
-package tips;
+package tips.concurrent_demo;
 
-
-import sun.misc.LRUCache;
-
-import java.util.LinkedHashMap;
 
 /**
 *@author: 杜立茂

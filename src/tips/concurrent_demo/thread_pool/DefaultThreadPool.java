@@ -1,6 +1,4 @@
-package tips.thread_pool;
-
-import javafx.fxml.Initializable;
+package tips.concurrent_demo.thread_pool;
 
 import java.util.ArrayList;
 import java.util.Collections;

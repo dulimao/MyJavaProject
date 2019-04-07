@@ -1,4 +1,4 @@
-package tips.thread_pool;
+package tips.concurrent_demo.thread_pool;
 
 import java.io.*;
 import java.net.ServerSocket;

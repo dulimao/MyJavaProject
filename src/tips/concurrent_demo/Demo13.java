@@ -1,6 +1,5 @@
-package tips;
+package tips.concurrent_demo;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
 public class Demo13 {

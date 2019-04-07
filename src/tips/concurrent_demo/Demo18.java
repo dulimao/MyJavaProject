@@ -1,14 +1,10 @@
-package tips;
+package tips.concurrent_demo;
 
 
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.DelayQueue;
-import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * 多线程操作HashMap，导致死循环

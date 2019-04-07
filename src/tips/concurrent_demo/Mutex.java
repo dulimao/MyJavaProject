@@ -1,4 +1,4 @@
-package tips;
+package tips.concurrent_demo;
 
 import org.omg.CORBA.TIMEOUT;
 
